@@ -3,39 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Arquitetura</title>
+    <title>Site de Arquitetura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Tradição em projetos de arquitetura</h1>
+    <header>
+        <h1 id="title-header">Tradição em projetos de arquitetura</h1>
+        <p>Arquitetura residencial e comercial. </p>
+    </header>
 
-    <p>Arquitetura residencial e comercial. </p>
+    <section id="numeros">
+        <div>
+            <h2>850</h2>
+                <p>mpreendimentos construídos</p>
+        </div>
 
-    <h2>850</h2>
-    <p>empreendimentos construídos</p>
+        <div>
+            <h2>40</h2>
+                <p>anos de mercado e experiência </p>
+        </div>
 
-    <h2>40</h2>
-    <p>anos de mercado e experiência</p>
+        <div>
+            <h2>2,000,000</h2>
+                <p>m² em projetos construídos</p>
+        </div>
+    </section>
 
-    <h2>2,000,000</h2>
-    <p>m² em projetos construídos</p>
+    <section id="text-image">
+        <div>
+            <h2 id="title-apresenta">Arquitetos com História e Experiência.</h2>
 
-    <h2>Arquitetos com História e Experiência</h2>
+                <p>Nós realizamos desde 2002 projetos e gerenciamento de obras.<br>Com mais de 800 projetos e 2.000.000 de m² construídos, tendo<br> como principal proposta transformar em realidade os sonhos de <br> seus clientes, criando projetos personalizados, unindo a tradição <br> e a modernidade em nossos projetos.</p>
+        </div>
 
-    <p>Nós realizamos desde 2002 projetos e gerenciamento de obras. Com mais de 800 projetos e 2.000.000 de m² construídos, tendo como principal proposta transformar em realidade os sonhos de seus clientes, criando projetos personalizados, unindo a tradição e a modernidade em nossos projetos.</p>
-
-    <img src="./imagem/foto.svg" alt="">
+        <div>
+            <img src="./imagem/foto.svg" alt="">
+        </div>
+    </section>
 
     <footer>
-        <h2>Conheça mais sobre nossos serviços:</h2>
+        <h3>Conheça mais sobre nossos serviços:</h2>
 
-        <form action="">
+        <form action="https://script.google.com/macros/s/AKfycbxbQvKdknRFBOVcrIa5c4k2Ul220w9LPysAB3eE3XVu_ONA4hi1DCgJz0kr-4ONHhAL0A/exec" method="post">
+            <label for="">
+                <input placeholder="Nome" type="text" name="nome">
+            </label><br>
 
-            <input placeholder="Nome" type="text"> <br>
-
-            <input placeholder="email" type="email"> <br>
+            <label for="">
+                <input type="email" placeholder="Email" name="email">
+            </label><br>
 
             <button type="submit">Fale Conosco</button>
         </form>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
